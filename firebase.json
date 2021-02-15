@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "egf-our-list",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
